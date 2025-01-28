@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+:root {
+  --font-family: "Open Sans", serif;
+  --pr-clr: #d9176c;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: #f5f5f5;
+  padding: 2rem 0;
+}
+.filter-title {
+  gap: 16px;
+}
+
+.filter-item {
+  color: #d9176c80 !important;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24.51px;
+  text-align: center;
+}
+.chk-label {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.07px;
+  text-align: center;
+  color: #222222;
+}
+.count {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.07px;
+  text-align: center;
+  color: #22222280;
+}
+
+.load-more {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19.07px;
+  text-align: center;
+  border: 0;
+  outline: 0;
+  background-color: #00000000;
+  color: var(--pr-clr);
+}
+
+.search-box {
+  max-width: 758px;
+  height: 59px;
+  background-color: #fff;
+}
+.search-input {
+  max-width: 100%;
+  height: 100%;
+  padding: 24px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27.24px;
+  text-align: left;
+  border-right: 0;
+  outline: 0 !important ;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+.search-box svg {
+  display: inline-block;
+  font-size: 2 rem;
+  border-left: 0;
+  color: #22222280;
+}
+.search-box svg:last-child {
+  color: var(--pr-clr);
+}
+.sort-select {
+  background-color: #00000000;
+}
+.sort-select option {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.51px;
+  text-align: left;
+  color: #22222280;
+}
+.btn-wrapper {
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.catBtn {
+  width: 114px;
+  height: 42px;
+  border: 1px solid #00000033;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  text-align: left;
+  padding: 10px 24px;
+  border-radius: 8px;
+  font-weight: 400;
+  color: #222222;
+  text-align: center;
+  outline: 0;
+  transition: all 0.3s ease;
+}
+.catBtn:hover {
+  color: #fff;
+  background-color: var(--pr-clr);
+  border-color: var(--pr-clr);
+}
+.active {
+  color: #ffffff;
+  background-color: var(--pr-clr);
+  border: 1px solid var(--pr-clr);
+}
+
+.product-img {
+  width: 173px;
+  height: 253px;
+}
+
+.product-info {
+  max-width: 424px;
+  height: 121px;
+}
+.product-discount {
+  background-color: #ffffff;
+  height: 35px;
+  border: 1px solid #ebc305;
+  color: #ebc305;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.07px;
+  text-align: center;
+}
+.product-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24.51px;
+  color: #222222;
+  text-align: left;
+}
+.product-description {
+  font-size: 16px;
+  color: #22222280;
+  font-weight: 400;
+  line-height: 1.7;
+  text-align: left;
+}
+.star {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+.star svg {
+  color: #ebc305;
+  font-size: 1.5rem;
+}
+
+.gray {
+  color: #00000033 !important;
+}
+.revCount {
+  color: #00000080;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19.07px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.rating {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  color: #00000080;
+}
+.rating .count {
+  color: #222222;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.79px;
+}
+.author h6,
+.year h6 {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19.07px;
+  color: #22222280;
+}
+.author p,
+.year p {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19.07px;
+  color: #222222;
+}
+.price {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 38.13px;
+  color: #222222;
+}
+
+.cartBtn {
+  width: 180px;
+  height: 48px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.79px;
+  text-align: left;
+  background-color: var(--pr-clr);
+  color: #ffffff;
+  text-transform: capitalize;
+  text-align: center;
+  border: 0;
+}
+
+.fav {
+  border: 1px solid var(--pr-clr);
+  /* padding: 12px; */
+  border-radius: 8px;
+  width: 48px;
+  height: 48px;
+  text-align: center;
+  color: var(--pr-clr);
+  outline: 0;
+  font-size: 23px;
+  transition: all 0.3s ease;
+}
+.fav:hover {
+  color: #fff;
+  background-color: var(--pr-clr);
+}
+.page-link {
+  color: var(--pr-clr);
+}
